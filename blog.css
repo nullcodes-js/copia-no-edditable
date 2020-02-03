@@ -1,0 +1,71 @@
+body{
+    background-color: silver;
+    text-align:center;
+}
+#all{
+    height: 2000px;
+}
+#msboard{
+    margin:0px;
+    border:solid;
+    border-right-width:0px;
+    border-bottom-width:5px;
+    border-top-width:0px;
+    border-left-width:0px;
+    font-weight:bold;
+    text-align: center;
+    font-size: 150%;
+    padding: 2%;
+}
+table,td,th,#all{
+    border-color: black;
+    border: solid;
+    border-width: 5px;
+    
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom:40px;
+  }
+#prev{
+    margin:0px;
+    border:solid;
+    border-right-width:2.5px;
+    border-bottom-width:5px;
+    border-top-width:0px;
+    border-left-width:0px;
+    display: flex;
+    font-weight:bold;
+    text-align: center;
+}
+#next{
+    margin: 0 auto;
+    text-align: center;
+    border:solid;
+    border-right-width:0px;
+    border-bottom-width:5px;
+    border-top-width:0px;
+    border-left-width:2.5px;
+    display: flex;
+    font-weight:bold;
+    text-align: center;
+}
+.cell{
+    display: none;
+    float: left;
+	height: 49%;
+    width: 49.6%;
+}
+p{}
+
+
+
+    /*
+    display: none;
+    float:left;
+    width:50%;
+    height:100%;
+    border:solid
+    */
